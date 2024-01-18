@@ -81,7 +81,7 @@ which is very convenient when doing this manually (via terminal).
 This also sets the SESSION-ID and overrides any previous SESSION-ID.
 
 #### Reply:
-> &gt;192.168.1.100,255.255.255.0,192.168.1.1,,0,2831,0123456789ABCD777777,192.168.1.1,connect.tutuuu.com,0;
+> &gt;192.168.1.100,255.255.255.0,192.168.1.1,,0,2831,0123456789ABCD000000,192.168.1.1,connect.tutuuu.com,0;
 
 #### Decoded:
 1. Relay-IP
@@ -90,7 +90,7 @@ This also sets the SESSION-ID and overrides any previous SESSION-ID.
 4. ?
 5. Restore relay state before power off (0/1)
 6. Firmware-Version (2831 = 1.0.2831)
-7. Device-ID (Hex, digits 1-14)
+7. Digits 1-14: Device-ID (Hex); Digits 15-20: Password for Remote Control
 8. DNS-Server (IP)
 9. Remote-Control-Server (Domain)
 10. Remote-Control-Enabled (0/1)
