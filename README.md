@@ -133,6 +133,6 @@ This also sets the SESSION-ID and overrides any previous SESSION-ID.
 > #7`${SESSION-ID}`;
 
 ### Unknown command:  
-It returns ">OK;", no matter what parameters you use.
-> #5`${SESSION-ID}`;
-> #5`${SESSION-ID}`,PARAMS;
+It returns `>OK;`, no matter what parameters I use.
+> #5`${SESSION-ID}`;  
+> #5`${SESSION-ID}`,`${PARAMS}`;
