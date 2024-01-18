@@ -20,6 +20,10 @@ In the folder [external resources](external%20resources) you can find some manua
 tools and source code in different languages to control and configure the relay
 (no guarantees, I just found them on the internet... after several long searches... finally... luckily).
 
+## Other projects
+* https://github.com/c-10001001/SR-201
+* https://github.com/cryxli/sr201
+
 ## Communicating with the relay
 
 A simple telnet connection is enough to communicate with the relay.
